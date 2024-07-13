@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Figtree-Italic-VariableFont_wght";
+    src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Figtree-VariableFont_wght";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+body{
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.main{
+    background-color: #ffffff;
+    width: 356px;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    box-shadow: 10px 10px 0px black;
+
+}
+.main-img{
+    height: 200px;
+    width: 356px;
+    
+}
+.main-img img{
+    border-radius: 10px;
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main-fonts{
+    margin:24px 0;
+}
+.main-fonts p{
+    margin: 0 0 12px 0;
+}
+.main-fonts p:nth-child(1){
+    height: 29px;
+    width: 82px;
+    background-color: #f4d04e;
+    font-family: "Figtree-VariableFont_wght";
+    font-weight:800;
+    line-height: 29px;
+    border-radius: 4px;
+    text-align: center;
+}
+.main-fonts p:nth-child(3){
+    font-weight: 800;
+    font-size: 24px; 
+}
+.main-fonts p:nth-child(4){
+    text-align: start;
+    line-height: 30px;
+    font-weight: 500;
+    color: #7f7f7f;
+    font-family: "Figtree-VariableFont_wght";
+    margin-bottom: 0px;
+}
+.main-name{
+    width:365px;
+    height: 32px;
+    
+}
+.main-name img{
+    width: 32px;
+}
+.main-name span{
+    padding-left: 8px;
+    vertical-align: 50%;
+    font-weight: 800;
+}
